@@ -1,4 +1,4 @@
---for Tableau
+--for Tableau there are 4 scripts for 4 tables
 
 --1
 select sum(try_parse(new_cases as int)) as total_cases, sum(try_parse(new_deaths as int)) as total_deaths,
